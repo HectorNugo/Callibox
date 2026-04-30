@@ -1,0 +1,111 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr auto;
+  grid-template-areas:
+    "partners activities value relations segments"
+    "partners resources  value channels  segments"
+    "costs    costs      costs revenue   revenue";
+  gap: 8px;
+  min-width: 900px;
+}
+
+.cell {
+  background: #fff;
+  border: 1px solid #E0DDD6;
+  border-radius: 6px;
+  padding: 1rem;
+  min-height: 140px;
+}
+
+.label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #8A8480;
+  margin-bottom: 0.5rem;
+}
+
+.cell ul {
+  padding-left: 14px;
+  color: #4A4540;
+}
+
+.cell li {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.cell h4 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.partners   { grid-area: partners;   background: #FFF8F5; border-color: #F4CDB4; }
+.activities { grid-area: activities; background: #F5F8FF; border-color: #C3D3F7; }
+.value      { grid-area: value;      background: #FFF9EC; border-color: #F4DFA0; }
+.relations  { grid-area: relations;  background: #F8F5FF; border-color: #D3C3F7; }
+.segments   { grid-area: segments;   background: #FFF5F5; border-color: #F4B4B4; }
+.resources  { grid-area: resources;  background: #F5FFF8; border-color: #B4E8C5; }
+.channels   { grid-area: channels;   background: #F5FCFF; border-color: #B4D9E8; }
+.costs      { grid-area: costs;      background: #F7F7F7; border-color: #D0D0D0; border-top: 2px solid #E0DDD6; }
+.revenue    { grid-area: revenue;    background: #F0FFF5; border-color: #9FD9B4; border-top: 2px solid #E0DDD6; }
+
+.costsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.revenueGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.subTitle {
+  font-size: 11px;
+  font-weight: 700;
+  color: #1A1714;
+  margin-bottom: 4px;
+}
+
+.subDesc {
+  font-size: 11px;
+  color: #8A8480;
+}
+
+.valueSection + .valueSection {
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: none;
+    min-width: 0;
+  }
+
+  .partners,
+  .activities,
+  .value,
+  .relations,
+  .segments,
+  .resources,
+  .channels,
+  .costs,
+  .revenue {
+    grid-area: auto;
+    min-height: auto;
+  }
+
+  .costsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
