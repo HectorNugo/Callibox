@@ -26,7 +26,7 @@ export default function SegmentsTabs({ tabs }: Props) {
                 : 'bg-white text-ink-soft border-border hover:bg-brand hover:text-white hover:border-brand'
             }`}
           >
-            {tab.emoji} {tab.label}
+            {tab.label}
           </button>
         ))}
       </div>

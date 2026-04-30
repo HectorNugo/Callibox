@@ -3,7 +3,7 @@ import type { Partner } from '@/lib/types'
 export const partners: Partner[] = [
   {
     emoji: '🏭',
-    title: 'Marcos Enriques — Manufactura',
+    title: 'Marcos Enriquez — Manufactura',
     description:
       'Planta en Juárez con capacidad y capital. Aporta el ensamble de las CalliBoxes sin inversión adicional en infraestructura. Relación de co-fundador con participación en el negocio.',
   },

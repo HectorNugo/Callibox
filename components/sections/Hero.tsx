@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className="bg-ink text-white py-20 px-8 text-center">
       <span className="inline-block bg-brand text-white text-[11px] font-semibold tracking-[2px] uppercase px-4 py-1 rounded-full mb-6">
-        Business Model · 2025
+        Business Model · 2026
       </span>
 
       <h1

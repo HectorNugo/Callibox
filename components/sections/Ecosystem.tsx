@@ -2,7 +2,7 @@ import SectionHeader from '@/components/ui/SectionHeader'
 
 const ecosystemCards = [
   {
-    title: '📱 La Super App',
+    title: 'La Super App',
     items: [
       'Mapa en tiempo real de CalliBoxes disponibles',
       'Booking instantáneo + checkout programado',
@@ -14,7 +14,7 @@ const ecosystemCards = [
     ],
   },
   {
-    title: '🏗️ Dashboard del Host',
+    title: 'Dashboard del Host',
     items: [
       'Métricas de ocupación en tiempo real',
       'Revenue dashboard con proyecciones',
@@ -26,7 +26,7 @@ const ecosystemCards = [
     ],
   },
   {
-    title: '🔧 App del Operador',
+    title: 'App del Operador',
     items: [
       'Cola de trabajos disponibles por zona',
       'Instrucciones de checklist por tipo de unidad',
@@ -37,7 +37,7 @@ const ecosystemCards = [
     ],
   },
   {
-    title: '🌐 IoT + Smart Control',
+    title: 'IoT + Smart Control',
     items: [
       'Cerradura inteligente (acceso via app)',
       'Sensores de ocupación y temperatura',
@@ -68,7 +68,7 @@ export default function Ecosystem() {
                   key={item}
                   className="relative pl-5 py-1.5 border-b border-border last:border-b-0 text-[13px] text-ink-soft leading-snug"
                 >
-                  <span className="absolute left-0 top-2 text-brand text-[10px]">▸</span>
+                  <span className="absolute left-0 top-2 text-brand text-[10px]">&#9658;</span>
                   {item}
                 </li>
               ))}

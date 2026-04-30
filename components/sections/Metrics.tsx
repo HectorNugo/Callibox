@@ -15,7 +15,7 @@ export default function Metrics() {
         {metricGroups.map((group) => (
           <div key={group.title} className="mb-10 last:mb-0">
             <h3 className="text-base font-semibold mb-4">
-              {group.emoji} {group.title}
+              {group.title}
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
               {group.metrics.map((metric) => (

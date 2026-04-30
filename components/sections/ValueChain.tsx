@@ -29,7 +29,7 @@ const columns = [
     circleColor: '#fff',
     title: 'Manufactura / Ensamble',
     desc: 'Producción en escala de las CalliBox, control de calidad en fábrica',
-    owner: '→ Marcos Enriques (Jz)',
+    owner: '→ Marcos Enriquez (Jz)',
     ownerColor: 'rgba(255,255,255,0.85)',
     primary: true,
   },
@@ -86,9 +86,6 @@ export default function ValueChain() {
           </div>
         </div>
 
-        <Callout>
-          <strong>Ventaja estratégica Mentefactura:</strong> El valor más alto de la cadena (R&D / Diseño + Ventas / Plataforma) está en manos de Calli. La manufactura — el eslabón de menor margen — está externalizada a la capacidad existente de Marcos, sin inversión en planta propia.
-        </Callout>
       </div>
     </div>
   )

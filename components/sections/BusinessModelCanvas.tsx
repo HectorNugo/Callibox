@@ -17,7 +17,7 @@ export default function BusinessModelCanvas() {
           <div className={`${styles.cell} ${styles.partners}`}>
             <span className={styles.label}>Socios Clave</span>
             <ul>
-              <li><strong>Marcos Enriques</strong> — manufactura / maquiladora (Jz)</li>
+              <li><strong>Marcos Enriquez</strong> — manufactura / maquiladora (Jz)</li>
               <li>Proveedores de IoT (cerraduras, sensores)</li>
               <li>Proveedores de insumos (cama, amenidades)</li>
               <li>Red de Operadores certificados</li>

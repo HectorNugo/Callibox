@@ -20,8 +20,8 @@ export default function Summary() {
           <Badge variant="brand">Premium micro-hospitality</Badge>
         </div>
 
-        <div className="hidden md:flex flex-col items-center justify-center pt-8 text-brand text-xl font-bold">
-          ✦
+        <div className="hidden md:flex flex-col items-center justify-center pt-8 text-border text-xl font-light select-none">
+          |
         </div>
 
         <div className="bg-white border border-border rounded-[var(--radius)] p-6">
@@ -43,7 +43,7 @@ export default function Summary() {
         </p>
         <div className="mt-6 flex justify-center">
           <span className="bg-brand text-white px-5 py-2 rounded-full text-[13px] font-semibold">
-            ✦ CALLI — Micro-Hospitality Platform
+            CALLI — Micro-Hospitality Platform
           </span>
         </div>
       </div>

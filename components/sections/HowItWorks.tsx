@@ -38,7 +38,7 @@ export default function HowItWorks() {
         {flows.map((flow) => (
           <div key={flow.id}>
             <h3 className="text-base font-semibold mb-5">
-              {flow.emoji} {flow.label}
+              {flow.label}
             </h3>
             <FlowSteps steps={flow.steps} />
           </div>

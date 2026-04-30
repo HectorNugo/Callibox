@@ -47,7 +47,7 @@ export const metricGroups: MetricGroup[] = [
         description: 'El indicador de crecimiento principal de la plataforma — drive revenue + defensibilidad.',
       },
       {
-        value: '4.5+ ⭐',
+        value: '4.5+',
         label: 'Rating promedio de unidades',
         description: 'Estándar mínimo Calli. Unidades bajo 4.0 entran a protocolo de revisión.',
       },

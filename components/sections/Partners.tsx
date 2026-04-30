@@ -14,7 +14,7 @@ export default function Partners() {
           {partners.map((partner) => (
             <div key={partner.title} className="bg-white border border-border rounded-[var(--radius)] p-6">
               <h3 className="text-[1.05rem] font-semibold mb-2">
-                {partner.emoji} {partner.title}
+                {partner.title}
               </h3>
               <p className="text-[13px] text-ink-soft leading-relaxed">{partner.description}</p>
             </div>
